@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+
+a:hover {
+    color: darkblue;
+}
+main {
+    background: url('https://picsum.photos/id/124/2540/1440');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+}
+.container {
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+h1 {
+    color: whitesmoke;
+    font-size: 80px;
+    padding: 8px;
+}
+p {
+    color: white;
+    font-size: 20px;
+}
+.loadbar {
+    height: 18px;
+    background-color: grey;
+    margin-bottom: 30px;
+    
+}
+
+.box1 {
+    background-color: green;
+    height: 100%;
+    width: 70%;
+}
+.percentage {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.item {
+    justify-content: center;
+    text-align: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.myButton {
+	box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color:#2e466e;
+	border-radius:17px;
+	border:1px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:6px 22px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color:#415989;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.logo {
+    margin-top: 20px;
+}
+i {
+    border: solid white;
+    border-radius: 50%;
+    font-size: 36px;
+    text-align: center;
+    padding: 8px;
+    margin: 5px 10px;
+}
+
+
+.copy {
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    bottom: 0;
+    /* justify-content: center; */
+    align-items: center;
+}
